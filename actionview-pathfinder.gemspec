@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mduffy@weblinc.com"]
   spec.summary       = "Outputs html comment with file path to partials in views"
   spec.description   = "Outputs html comment with file path to partials in views"
-  spec.homepage      = "http://github.com/mttdffy/actionview-pathfinder"
+  spec.homepage      = "http://github.com/weblinc/actionview-pathfinder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
