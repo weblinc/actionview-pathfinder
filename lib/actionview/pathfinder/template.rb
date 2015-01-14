@@ -14,6 +14,8 @@ module ActionView
       private
 
       def html_comment(text)
+        return '' unless formats.include?(:html)
+
         if handler_type == 'haml'
           ["/", text, "\n\n"].join('')
         else
